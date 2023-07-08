@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  flex-direction: end;
+  justify-content: end;
+}
+.form-select {
+  text-align: end;
+}
+
+.lingua {
+  display: flex;
+  gap: 10px;
+}
+body {
+  background-image: url("netflix.jpeg");
+}
