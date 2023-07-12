@@ -1,19 +1,137 @@
+.img2 {
+  background-image: url("netflix.jpeg");
+  margin: -8px;
+  border: none;
+}
+
 .logo {
   display: flex;
   justify-content: space-between;
 }
 .img {
-  flex-direction: end;
-  justify-content: end;
+  margin-left: 150px;
+  margin-top: 20px;
 }
-.form-select {
+.form-select1 {
   text-align: end;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border-color: white;
 }
 
 .lingua {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
-body {
-  background-image: url("netflix.jpeg");
+
+.button1 {
+  margin-top: 20px;
+  margin-right: 150px;
+  font-size: 16px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  border-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+  margin-top: 200px;
+}
+
+.titolo {
+  font-size: 50px;
+}
+.titolo1 {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.paragrafo {
+  font-size: 20px;
+  margin-top: -10px;
+}
+.email {
+  font-size: 1.5rem;
+
+  justify-content: center;
+  border-radius: 5px;
+  border-color: white;
+  background-color: black;
+  opacity: 0.7;
+  padding: 15px;
+  padding-right: 150px;
+}
+
+.button2 {
+  font-size: 1.5rem;
+  background-color: red;
+  border-radius: 5px;
+  border-color: red;
+  color: white;
+  margin-left: 5px;
+  padding: 15px;
+  margin-bottom: 200px;
+}
+
+.rigacentrale1 {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  font-size: 5px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 700px;
+
+  margin: -8px;
+}
+.container3 {
+  font-size: 16px;
+  margin-left: -80px;
+  margin-right: 70px;
+}
+
+.img3 {
+  margin-left: 70px;
+  margin-right: -50px;
+}
+.rigancentrale4 {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  font-size: 5px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 700px;
+  margin: -8px;
+}
+.container5 {
+  font-size: 25px;
+  margin-right: 70px;
+}
+.butto3 {
+  display: flex;
+  border: solid;
+  border-color: red;
+  flex-direction: column;
 }
