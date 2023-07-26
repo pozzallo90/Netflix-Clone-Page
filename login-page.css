@@ -2,7 +2,8 @@
   background-image: url("netflix.jpeg");
   margin: -8px;
   border: none;
-  
+ 
+ 
 }
 .logo {
   display: flex;
@@ -116,6 +117,7 @@ h2 {
 }
 a{
   text-decoration: none;
+  color: gray;
 }
 .aiuto{
   color: grey;
@@ -150,13 +152,41 @@ margin-bottom: 80px;
 .footer{
   background-color: black;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 80px;
   opacity:0.8;
+ padding-left: 300px;
+  
+  
 }
 .paragrafo2{
   color: grey ;
+  font-size: 20px;
+  padding-top: 30px;
 
 }
 .numero{
   color: grey;
+  
+}
+
+.footer2{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+ color: grey;
+margin-left: -40px;
+gap: 10px;
+ 
+}
+
+
+.form-select1{
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: black;
+  color:grey;
+  border-color:grey;
+ 
+  
+
 }

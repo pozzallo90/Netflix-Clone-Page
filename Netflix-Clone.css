@@ -21,7 +21,10 @@
   color: white;
   border-color: white;
 }
-
+.link {
+  color: white;
+  text-decoration: none;
+}
 .lingua {
   display: flex;
   gap: 20px;
@@ -60,7 +63,7 @@
 }
 .email {
   font-size: 1.5rem;
-
+  color: white;
   justify-content: center;
   border-radius: 5px;
   border-color: white;
@@ -307,4 +310,33 @@
   margin-top: -25px;
   margin-bottom: -10px;
   padding-bottom: 5px;
+}
+.footer {
+  background-color: black;
+  margin: -22px;
+  height: 500px;
+  color: gray;
+  padding-left: 120px;
+}
+.titolo22 {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.footer2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+  gap: 20px;
+}
+.footer3 {
+  padding-left: 40px;
+}
+.footer4 {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+a {
+  color: gray;
 }
