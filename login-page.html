@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="login-page.css" />
+    <script type="text/javascript" src="login-page.js" defer ></script>
     <title>LOGIN Netflix Clone</title>
   </head>
   <body>
@@ -23,13 +24,15 @@
 
         <div class="login1">
           <label for="nome_utente">Nome Utente</label>
-          <input
+
+          <input 
             class="email"
             type="email"
             name=" "
-            id="email "
+            id="email"
             placeholder=" Indirizzo E-mail "
           />
+          <p id="erroreEmail" class="invisible errormessage"  > email vuota </p>
         </div>
 
         <div class="password">

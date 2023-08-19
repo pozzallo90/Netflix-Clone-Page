@@ -25,8 +25,8 @@ h2 {
   box-sizing: border-box;
   background-color: black;
   max-width: 450px;
-  margin-left: 600px;
-  margin-right: 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
   opacity: 0.8;
   border-radius: 10px
@@ -188,5 +188,18 @@ gap: 10px;
   border-color:grey;
  
   
+
+}
+
+.error{
+  border-color: red;
+
+}
+.invisible{
+  display: none;
+  
+}
+.errormessage{
+  color: white;
 
 }
